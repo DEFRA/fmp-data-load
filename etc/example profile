@@ -1,0 +1,20 @@
+# Spatial load database host
+export FMP_DB_HOST=127.0.0.1
+# Spatial load database port
+export FMP_DB_PORT=5432
+# Spatial load database instance
+export FMP_DB_NAME=fmp
+# Spatial load database schema
+export FMP_DB_SCHEMA=fmp_schema
+# Spatial load database user
+export FMP_DB_USER=fmp_user
+# Spatial load database password
+export FMP_DB_PASSWORD=fmp_password
+# Spatial load source geodatabase directory
+export FMP_GDB_ROOT=~/fmp/data/fmp/
+# Spatial load source geodatabase suffix (used for switching between national and non-national subsets).
+# export FMP_GDB_POSTFIX=
+# A flag that controls spatial index generation.
+export FMP_GENERATE_SPATIAL_INDEX=fmp_indexes
+# Scripts root
+export FMP_SCRIPTS_ROOT=~/fmp/load_scripts/fmp/

@@ -1,0 +1,1 @@
+CLUSTER u_fmp.flood_storage_areas USING flood_storage_areas_wkb_geometry_geom_idx;

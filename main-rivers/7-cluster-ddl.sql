@@ -1,0 +1,1 @@
+CLUSTER u_fmp.main_rivers_10k USING main_rivers_10k_wkb_geometry_geom_idx;

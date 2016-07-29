@@ -1,0 +1,1 @@
+CLUSTER u_fmp.floodzone_2 USING floodzone_2_wkb_geometry_geom_idx;
