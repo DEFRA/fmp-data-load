@@ -1,6 +1,5 @@
 -- CREATE postgis schema
-CREATE SCHEMA postgis AUTHORIZATION postgres;
-GRANT ALL ON SCHEMA postgis TO postgres;
+CREATE SCHEMA postgis AUTHORIZATION fmp;
 GRANT ALL ON SCHEMA postgis TO fmp;
 
 -- Create fmp schema
