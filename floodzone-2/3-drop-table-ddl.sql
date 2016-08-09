@@ -1,3 +1,3 @@
 \echo 'Flood Zone 2 - Dropping original table'
 
-DROP TABLE u_fmp.floodzone_2;
+DROP TABLE fmp.floodzone_2;

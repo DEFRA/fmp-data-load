@@ -1,1 +1,1 @@
-CLUSTER u_fmp.defences USING defences_wkb_geometry_geom_idx;
+CLUSTER fmp.defences USING defences_wkb_geometry_geom_idx;
