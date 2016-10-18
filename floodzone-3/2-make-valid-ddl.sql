@@ -1,8 +1,8 @@
 \echo 'Flood Zone 3 - MakeValid'
 
 CREATE TABLE fmp.floodzone_3_valid TABLESPACE fmp_tables AS WITH
-	make_valid (fid_nat_fl,layer,type,fid_os_5km,name,shape_leng,shape_area,wkb_geometry) AS
-	(SELECT fid_nat_fl,layer,type,fid_os_5km,name,shape_leng,shape_area,
+	make_valid (fid_nat_fl,layer,type,fid_os_5km,name, wkb_geometry) AS
+	(SELECT fid_nat_fl,layer,type,fid_os_5km,name,
 		(ST_Dump(ST_MakeValid(wkb_geometry))).geom AS wkb_geometry FROM fmp.floodzone_3
 	)
 SELECT * FROM make_valid WHERE ST_GeometryType(wkb_geometry) IN('ST_Polygon','ST_MultiPolygon');
