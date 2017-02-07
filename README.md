@@ -24,6 +24,8 @@ All spatial data for this project is available from the data.gov.uk website.
 
 Download the data as Shapefiles and store in a data directory.
 
+#### Please note that the application requires the "WIYBY" versions of floodzone 2 and 3, which have been tiled into 5km square tiles.
+
 #### Environment variables
 
 The following environment variables must be set before the scripts are run. An example file is contained in the etc directory.
