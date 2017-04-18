@@ -4,8 +4,6 @@ The Flood Map for Planning service asseses the flood risk of a proposed developm
 
 This repository contains Unix scripts to load the spatial data (shapefiles) into the Flood Map for Planning Postgresql database.
 
-This service is not currently released but is intended to replace the existing method soon. The key difference is that it will have been developed in accordance with the [Digital by Default service standard](https://www.gov.uk/service-manual/digital-by-default), putting user needs first and delivered iteratively.
-
 ## Development Environment
 
 ### Local Installation
