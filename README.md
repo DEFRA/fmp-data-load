@@ -58,6 +58,9 @@ FMP_GENERATE_SPATIAL_INDEX
 ##### FMP load Scripts root directory
 FMP_SCRIPTS_ROOT
 
+##### FMP data file version eg v201711
+FMP_FILE_VERSION
+
 #### Running the scripts
 
 Open the folder for the dataset that you want to load.
