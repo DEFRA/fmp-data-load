@@ -1,0 +1,1 @@
+CLUSTER fmp.reduction_in_rofrs USING reduction_in_rofrs_wkb_geometry_geom_idx;
