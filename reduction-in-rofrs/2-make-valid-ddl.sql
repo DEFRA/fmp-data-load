@@ -1,8 +1,8 @@
 \echo 'Reduction in RoFRS- MakeValid'
 
 CREATE TABLE fmp.reduction_in_rofrs_valid TABLESPACE fmp_tables AS WITH
-	make_valid (def_prob, suitability, def_date, undef_prob, undef_date, reduction, wkb_geometry) AS
-	(SELECT def_prob, suitability, def_date, undef_prob, undef_date, reduction,
+	make_valid (suitability, wkb_geometry) AS
+	(SELECT suitability,
 		(ST_Dump(ST_MakeValid(wkb_geometry))).geom AS wkb_geometry FROM fmp.reduction_in_rofrs
 	)
 SELECT * FROM make_valid WHERE ST_GeometryType(wkb_geometry) IN('ST_Polygon','ST_MultiPolygon');
