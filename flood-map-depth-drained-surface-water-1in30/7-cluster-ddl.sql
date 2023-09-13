@@ -1,0 +1,1 @@
+CLUSTER fmp.flood_map_with_depth_drained_surface_water_1in30_present_day USING flood_map_with_depth_drained_surface_water_1in30_geom_idx;

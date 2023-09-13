@@ -1,0 +1,1 @@
+CLUSTER fmp.flood_map_defended_1in30_surface_water_present_day USING flood_map_defended_1in30_surface_water_present_day_geom_idx;

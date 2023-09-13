@@ -1,0 +1,1 @@
+CLUSTER fmp.flood_map_with_depth_undefended_river_1in1000_present_day USING flood_map_with_depth_undefended_river_1in1000_geom_idx;

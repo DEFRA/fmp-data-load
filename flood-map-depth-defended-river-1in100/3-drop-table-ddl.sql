@@ -1,0 +1,3 @@
+\echo 'flood_map_with_depth_defended_river_1in100_sea_1in200_present_day - Dropping original table'
+
+DROP TABLE fmp.flood_map_with_depth_defended_river_1in100_present_day;

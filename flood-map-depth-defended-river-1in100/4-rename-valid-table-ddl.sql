@@ -1,0 +1,3 @@
+\echo 'flood_map_with_depth_defended_river_1in100_sea_1in200_present_day - Renaming _valid table original table'
+
+ALTER TABLE fmp.flood_map_with_depth_defended_river_1in100_present_day_valid RENAME TO flood_map_with_depth_defended_river_1in100_present_day;
