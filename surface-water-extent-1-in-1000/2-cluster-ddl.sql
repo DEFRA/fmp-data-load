@@ -1,0 +1,1 @@
+CLUSTER fmp.sw_extent_1in1000 USING sw_extent_1in1000_wkb_geometry_geom_idx;
